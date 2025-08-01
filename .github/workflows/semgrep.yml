@@ -8,6 +8,7 @@ on:
     - test
     paths:
     - .github/workflows/semgrep.yml
+    - bad-python-app/vulns/file_upload/file_upload.py
   schedule:
   # random HH:MM to avoid a load spike on GitHub Actions at 00:00
   - cron: 39 18 * * *
